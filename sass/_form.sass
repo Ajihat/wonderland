@@ -1,0 +1,78 @@
+.form
+    max-width: 800px
+    margin: 0 auto 100px auto
+    &__header
+        font-family: 'Helvetica Neue Condensed Bold'
+        font-weight: 900
+        text-transform: uppercase
+        text-align: center
+        color: white
+        font-size: 55px
+        margin-bottom: 50px
+    &__input
+        font-family: "Univers LT W05_55 Roman"
+        border: 1px solid white
+        border-radius: 10px
+        font-size: 16px
+        height: 30px
+        width: 100%
+        margin-bottom: 10px
+        padding: 20px 10px
+        &:focus
+            outline: none
+    &__label
+        font-family: "Univers LT W05_55 Roman"
+        font-size: 14px
+        font-weight: 400
+        color: black
+        text-align: center
+        text-transform: uppercase
+        line-height: 150%
+        letter-spacing: 1px
+    &__area
+        font-family: "Univers LT W05_55 Roman"
+        font-size: 16px
+        border: 1px solid white
+        border-radius: 10px
+        width: 100%
+        resize: none
+        padding: 5px
+        margin-bottom: 10px
+        &:focus
+            outline: none
+    &__holder
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        margin-bottom: 10px
+    &__small-text
+        text-decoration: none
+        color: white
+        font-size: 9px
+        text-align: right
+        text-transform: uppercase
+        letter-spacing: 1px
+    &__check
+        width: 16px
+        height: 16px
+        margin-right: 10px
+    &__rules
+        margin: 20px 0
+        font-family: 'Nimbus Regular'
+        color: white
+        font-size: 12px
+
+@media (max-width: 764px)
+    .form
+        &__header
+            font-size: 55px
+
+@media (max-width: 550px)
+    .form
+        &__header
+            font-size: 40px
+
+@media (max-width: 450px)
+    .form
+        &__label
+            font-size: 14px
